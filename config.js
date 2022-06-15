@@ -9,12 +9,12 @@ const chalk = require('chalk')
 
 // Website Api
 global.APIs = {
-	zenz: 'https://zenzapis.xyz',
+	zenz: 'https://zahirr-web.herokuapp.com',
 }
 
 // Apikey Website Api
 global.APIKeys = {
-	'https://zenzapis.xyz': 'Your Key',
+	'https://zahirr-web.herokuapp.com': 'zahirgans',
 }
 
 // Other
@@ -36,6 +36,9 @@ global.mess = {
     wait: 'Loading...',
     endLimit: 'Limit Harian Anda Telah Habis, Limit Akan Direset Setiap Jam 12',
 }
+
+global.wm = '                「 ZERO BOT あ⁩ 」'
+
 global.limitawal = {
     premium: "Infinity",
     free: 100
