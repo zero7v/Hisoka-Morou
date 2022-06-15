@@ -9,12 +9,12 @@ const chalk = require('chalk')
 
 // Website Api
 global.APIs = {
-	zenz: 'https://zenzapis.xyz',
+	zenz: 'https://zahirr-web.herokuapp.com',
 }
 
 // Apikey Website Api
 global.APIKeys = {
-	'https://zenzapis.xyz': 'Your Key',
+	''https://zahirr-web.herokuapp.com': 'zahirgans',
 }
 
 // Other
@@ -35,7 +35,22 @@ global.mess = {
     bot: 'Fitur Khusus Pengguna Nomor Bot',
     wait: 'Loading...',
     endLimit: 'Limit Harian Anda Telah Habis, Limit Akan Direset Setiap Jam 12',
+
 }
+
+global.wm = '                「 ZERO BOT あ⁩ 」' //Main Watermark
+
+global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘օառɛʀ - OSHADA˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
+
+global.wm3 = '⫹⫺ ZERO 𝗕𝗢𝗧'
+
+global.botdate = `⫹⫺ Date :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
+
+global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}`
+
+global.titlebot = `⫹⫺ Time Sever : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}\n⫹⫺ Date Server :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}
+`
+
 global.limitawal = {
     premium: "Infinity",
     free: 100
